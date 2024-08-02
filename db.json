@@ -3,77 +3,74 @@
     {
       "option": "Choice 1",
       "value": "choice1",
-      "isChecked": false
     },
     {
       "option": "Choice 2",
       "value": "choice2",
-      "isChecked": false
+
     },
     {
       "option": "Choice 3",
       "value": "choice3",
-      "isChecked": false
+
     },
     {
       "option": "Choice 4",
       "value": "choice4",
-      "isChecked": false
+
     },
     {
       "option": "Choice 5",
       "value": "choice5",
-      "isChecked": false
     },
     {
       "option": "Choice 6",
       "value": "choice6",
-      "isChecked": false
+
     },
     {
       "option": "Choice 7",
       "value": "choice7",
-      "isChecked": false
+
     },
     {
       "option": "Choice 8",
       "value": "choice8",
-      "isChecked": false
+  
     },
     {
       "option": "Choice 9",
       "value": "choice9",
-      "isChecked": false
+
     },
     {
       "option": "Choice 10",
       "value": "choice10",
-      "isChecked": false
+
     },
     {
       "option": "Choice 11",
       "value": "choice11",
-      "isChecked": false
+
     },
     {
       "option": "Choice 12",
       "value": "choice12",
-      "isChecked": false
+
     },
     {
       "option": "Choice 13",
       "value": "choice13",
-      "isChecked": false
+
     },
     {
       "option": "Choice 14",
       "value": "choice14",
-      "isChecked": false
+
     },
     {
       "option": "Choice 15",
       "value": "choice15",
-      "isChecked": false
     }
   ]
 }
