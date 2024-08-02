@@ -1,0 +1,217 @@
+{
+    "elements": [
+      {
+        "type": "text",
+        "name": "firstName",
+        "label": "First Name",
+        "placeholder": "Enter your first name",
+        "required": true,
+        "minLength": 2,
+        "maxLength": 50,
+        "validation": {
+          "pattern": "^[a-zA-Z]+$",
+          "message": "First name should contain only letters"
+        },
+        "tooltip": "Your given name",
+        "autocomplete": "given-name",
+        "readonly": false,
+        "disabled": false,
+        "customClass": "first-name-input"
+      },
+      {
+        "type": "text",
+        "name": "lastName",
+        "label": "Last Name",
+        "placeholder": "Enter your last name",
+        "required": true,
+        "minLength": 2,
+        "maxLength": 50,
+        "validation": {
+          "pattern": "^[a-zA-Z]+$",
+          "message": "Last name should contain only letters"
+        },
+        "tooltip": "Your family name",
+        "autocomplete": "family-name",
+        "readonly": false,
+        "disabled": false,
+        "customClass": "last-name-input"
+      },
+      {
+        "type": "email",
+        "name": "email",
+        "label": "Email",
+        "placeholder": "Enter your email address",
+        "required": true,
+        "validation": {
+          "pattern": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$",
+          "message": "Enter a valid email address"
+        },
+        "tooltip": "Your email address",
+        "autocomplete": "email",
+        "readonly": false,
+        "disabled": false,
+        "customClass": "email-input"
+      },
+      {
+        "type": "password",
+        "name": "password",
+        "label": "Password",
+        "placeholder": "Enter your password",
+        "required": true,
+        "minLength": 8,
+        "maxLength": 100,
+        "validation": {
+          "pattern": "^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$",
+          "message": "Password must contain at least one number, one lowercase and one uppercase letter, and be at least 8 characters long"
+        },
+        "tooltip": "Create a strong password",
+        "autocomplete": "new-password",
+        "readonly": false,
+        "disabled": false,
+        "customClass": "password-input"
+      },
+      {
+        "type": "date",
+        "name": "dob",
+        "label": "Date of Birth",
+        "placeholder": "Enter your date of birth",
+        "required": true,
+        "validation": {
+          "message": "Enter a valid date"
+        },
+        "tooltip": "Your birthdate",
+        "autocomplete": "bday",
+        "readonly": false,
+        "disabled": false,
+        "customClass": "dob-input"
+      },
+      {
+        "type": "radio",
+        "name": "gender",
+        "label": "Gender",
+        "required": true,
+        "options": [
+          {
+            "label": "Male",
+            "value": "male"
+          },
+          {
+            "label": "Female",
+            "value": "female"
+          },
+          {
+            "label": "Other",
+            "value": "other"
+          }
+        ],
+        "validation": {
+          "message": "Please select a gender"
+        },
+        "tooltip": "Select your gender",
+        "autocomplete": "",
+        "readonly": false,
+        "disabled": false,
+        "customClass": "gender-input"
+      },
+      {
+        "type": "checkbox",
+        "name": "subscribe",
+        "label": "Subscribe to newsletter",
+        "placeholder": "",
+        "required": false,
+        "validation": {
+          "message": "Please check the box to subscribe"
+        },
+        "tooltip": "Subscribe for updates",
+        "autocomplete": "",
+        "readonly": false,
+        "disabled": false,
+        "customClass": "subscribe-input"
+      },
+      {
+        "type": "textarea",
+        "name": "message",
+        "label": "Message",
+        "placeholder": "Enter your message",
+        "required": true,
+        "minLength": 10,
+        "maxLength": 500,
+        "validation": {
+          "message": "Message must be between 10 and 500 characters"
+        },
+        "tooltip": "Your message or feedback",
+        "autocomplete": "off",
+        "readonly": false,
+        "disabled": false,
+        "customClass": "message-input"
+      },
+      {
+        "type": "select",
+        "name": "country",
+        "label": "Country",
+        "required": true,
+        "options": [
+          {
+            "label": "Select your country",
+            "value": ""
+          },
+          {
+            "label": "United States",
+            "value": "us"
+          },
+          {
+            "label": "Canada",
+            "value": "ca"
+          },
+          {
+            "label": "United Kingdom",
+            "value": "uk"
+          },
+          {
+            "label": "Australia",
+            "value": "au"
+          }
+        ],
+        "validation": {
+          "message": "Please select your country"
+        },
+        "tooltip": "Select your country of residence",
+        "autocomplete": "country",
+        "readonly": false,
+        "disabled": false,
+        "customClass": "country-select"
+      },
+      {
+        "type": "tel",
+        "name": "phone",
+        "label": "Phone Number",
+        "placeholder": "Enter your phone number",
+        "required": true,
+        "validation": {
+          "pattern": "^[0-9]{10}$",
+          "message": "Phone number must be 10 digits"
+        },
+        "tooltip": "Your contact number",
+        "autocomplete": "tel",
+        "readonly": false,
+        "disabled": false,
+        "customClass": "phone-input"
+      },
+      {
+        "type": "url",
+        "name": "website",
+        "label": "Website",
+        "placeholder": "Enter your website URL",
+        "required": false,
+        "validation": {
+          "pattern": "^(https?:\\/\\/)?([\\da-z.-]+)\\.([a-z.]{2,6})([\\/\\w .-]*)*\\/?$",
+          "message": "Enter a valid URL"
+        },
+        "tooltip": "Your personal or business website",
+        "autocomplete": "url",
+        "readonly": false,
+        "disabled": false,
+        "customClass": "website-input"
+      }
+    ]
+  }
